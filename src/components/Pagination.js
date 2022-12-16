@@ -20,7 +20,7 @@ const Pagination = ({ showPerPage, onPaginationChange, total }) => {
       }
     } else if (type === "next") {
       if (numberOfButtons === counter) {
-        setCounter(counter);
+        setCounter(1);
       } else {
         setCounter(counter + 1);
       }
