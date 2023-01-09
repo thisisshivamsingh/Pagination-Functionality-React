@@ -66,6 +66,4 @@ const Pagination = ({ showPerPage, onPaginationChange, total }) => {
   );
 };
 
-// Hello World! //
-
 export default Pagination;
